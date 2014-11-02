@@ -1,0 +1,63 @@
+<div id="main">
+    <div id="main-body" class="itemFull">
+			<div x-mojo-element="Spinner" id="waiting_spinner1" style="margin:auto;z-index:1500;position:absolute;top:15px;left:90px"></div>
+			<div x-mojo-element="Spinner" id="waiting_spinner2" style="margin:auto;z-index:1500;position:absolute;top:15px;left:250px"></div>
+			<div x-mojo-element="Spinner" id="waiting_spinner3" style="margin:auto;z-index:1500;position:absolute;top:15px;left:144px"></div>
+		<div style="width:100%;font-weight:bold;display:block;" id="sitestotal">
+			<table border=0 style='font-size:18px'> 
+				<tr> 
+					<td width=5>&nbsp;</td>
+					<td width=55>Reve:</td><td width=80></td>
+					<td width=10>&nbsp;</td> 
+					<td width=55>Requ:</td><td width=80></td>
+					<td width=5>&nbsp;</td> 
+				</tr> 
+				<tr>
+					<td width=5>&nbsp;</td>
+					<td width=55>eCPM:</td><td width=80></td>
+					<td width=10>&nbsp;</td>
+					<td width=55>Fill-R:</td><td width=80></td>
+					<td width=5>&nbsp;</td> 
+				</tr> 
+			</table> 
+		</div>
+		<div style="width:100%;font-weight:bold;display:none;" id="adstotal">
+			<table border=0 style='font-size:18px'> 
+				<tr> 
+					<td width=5>&nbsp;</td>
+					<td width=100>Impressions:</td><td width=210></td> 
+					<td width=5>&nbsp;</td>
+				</tr> 
+				<tr>
+					<td width=5>&nbsp;</td> 
+					<td width=100>Clicks:</td><td width=210></td>
+					<td width=5>&nbsp;</td> 
+				</tr> 
+			</table> 
+		</div>
+    	<div id="daterange" style="width:100%;font-size:13px;text-align:center;text-decoration:underline;margin-bottom:6px">Date Range: One Month</div>
+		<div x-mojo-element="Drawer" id="changedaterange" name="drawer">
+			<div id="dateselector" style="height:170px;">
+				<div style="width:100%;text-align:right;">
+					<div id="startdatefield" name="startdatefield" x-mojo-element="DatePicker"></div>
+					<div id="enddatefield" name="enddatefield" x-mojo-element="DatePicker"></div>
+				</div>
+				<button id='setdaterange' class='palm-button'>Set Date Range</button>
+			</div>
+			<div id="dateselectorwait" style="width:100%;height:170px;font-size:13px;">
+				<center>
+					<br><br><br>
+					<div x-mojo-element="Spinner" id="waiting_spinner4" ></div>
+					<br>
+					Please wait while loading...
+				</center>
+			</div>
+		</div>
+		<hr style="margin-top:0px">
+		<div style="display:block;" id="siteslist" class="listClass" x-mojo-element="List"></div>
+		<div style="display:none;" id="adslist" class="listClass" x-mojo-element="List"></div>
+		<hr>
+		<!--<button id='reload' class='palm-button'>Reload</button>
+		<button id='logout' class='palm-button negative'>Logout</button>-->
+	</div>
+</div>

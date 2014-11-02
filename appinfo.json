@@ -1,0 +1,9 @@
+{
+	"id": "de.omoco.admobmanager.beta",
+	"version": "0.9.0",
+	"vendor": "admobmanager.omoco.de",
+	"type": "web",
+	"main": "index.html",
+	"title": "AdMob Manager",
+	"icon": "icon.png"
+}

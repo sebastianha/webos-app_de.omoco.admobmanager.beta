@@ -1,0 +1,58 @@
+<div id="main">
+    <div class="palm-page-header multi-line">
+        <div id="main-header" class="palm-page-header-wrapper">
+             AdMob Manager
+        </div>
+    </div>
+    <div id="main-body" class="itemFull">
+    	<div id="autologindiv" style="display:none">
+    		<br>
+			<center><div x-mojo-element="Spinner" id="waiting_spinner"></div></center>
+			<br>
+			<div id="message"><center>Logging in...</center></div>
+		</div>
+		<div id="logindiv" style="display:none">
+			<div class="palm-group">
+				<div class="palm-group-title" x-mojo-loc=''>E-Mail / Password</div>
+				<div class="palm-list">
+			  		<div class="palm-row first">
+						<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+							<div class="title">
+					   			<div id="loginemail" name="loginemail"  x-mojo-element="TextField"></div>
+							</div>
+						</div>
+					</div>
+			  		<div class="palm-row last">
+						<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+							<div class="title">
+					   			<div id="loginpassword" name="loginpassword"  x-mojo-element="PasswordField"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-group">
+				<div class="palm-group-title" x-mojo-loc=''>AdMob API Key</div>
+				<div class="palm-list">
+			  		<div class="palm-row single">
+						<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+							<div class="title">
+					   			<div id="loginapikey" name="loginapikey"  x-mojo-element="TextField"></div>								</div>
+						</div>
+					</div>
+					<div class="palm-row last" id="apikeyinfo" style="display:none">
+						<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+							<div class="title">
+					   			<center><a href="http://admob.com/api/">Where do I get the API Key?</a></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div x-mojo-element="Button" id="login"></div>
+			<table border=0 width=100%><tr><td width=8>&nbsp;</td><td>Auto Login: </td><td><div id="autologintoggle" x-mojo-element="ToggleButton" class="toggle-text"></div></td></tr></table>
+		</div>
+	</div>
+</div>
+
+

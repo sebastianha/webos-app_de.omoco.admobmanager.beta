@@ -1,0 +1,15 @@
+[
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "sites",
+        "source": "app/assistants/sites-assistant.js"
+    },
+    {
+        "scenes": "login",
+        "source": "app/assistants/login-assistant.js"
+    },
+    {
+        "scenes": "logout",
+        "source": "app/assistants/logout-assistant.js"
+    }
+]
