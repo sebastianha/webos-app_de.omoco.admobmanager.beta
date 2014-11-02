@@ -29,7 +29,6 @@ webOS App – AdMob Manager Beta (de.omoco.admobmanager.beta)
 ![Screenshot](/screenshots/screenshot0.png?raw=true "Screenshot")
 ![Screenshot](/screenshots/screenshot1.png?raw=true "Screenshot")
 ![Screenshot](/screenshots/screenshot2.png?raw=true "Screenshot")
-![Screenshot](/screenshots/screenshot3.png?raw=true "Screenshot")
 
 ## Description
 
