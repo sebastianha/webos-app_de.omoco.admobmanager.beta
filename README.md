@@ -18,7 +18,7 @@ webOS App – AdMob Manager Beta (de.omoco.admobmanager.beta)
 
 ## Download
 
-[Download](/releases/de.omoco.admobmanager.beta_0.9.0_alll.ipk?raw=true) latest version as IPK.
+[Download](/releases/de.omoco.admobmanager.beta_0.9.0_all.ipk?raw=true) latest version as IPK.
 
 ## Icon
 
